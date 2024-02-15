@@ -6,7 +6,7 @@ body {
 }
 
 body{
-    background-color: green;
+    background-color: gray;
 }
 
 
@@ -17,7 +17,7 @@ body{
 .button {
     position: absolute;
     margin-top: 120px;
-    right: 5px;
+    right: 10px;
 }
 
 
@@ -35,9 +35,9 @@ h1 {
 
 h2 {
     position: absolute;
-    left: 180px;
-    top: 200px;
-    font-size: 30px;
+    left: 490px;
+    top: 1px;
+    font-size: 40px;
     color: yellow;
     font-family: 'Permanent Marker';
     
@@ -45,9 +45,9 @@ h2 {
 
 h3 {
     position: absolute;
-    left: 10px;
-    top: 240px;
-    font-size: 18px;
+    left: 105px;
+    top: 85px;
+    font-size: 30px;
     color: yellow;
     font-family: 'Permanent Marker';
     
@@ -55,10 +55,9 @@ h3 {
 
 .txtAdj{
     position: absolute;
-    left: 150px;
-    top: 300px;
+    left: 395px;
+    top: 450px;
     font-family: 'Permanent Marker';
-    font-size: 25px;
+    font-size: 45px;
     color: rgb(141, 11, 37);
 }
-

@@ -10,14 +10,17 @@ $(function() {
         //call my function 
         let thisString = userName;
 
+        thisString = moveThatLetter(userName);
+
+
         //print back the result
         if(userName.length < 5){
 
-            alert("Short and Sweet! We love it!");
-            var lastLetter = userName.slice(-1); // Get the last letter
-            var letterToFront = lastLetter + userName.slice(0, -1); // Move the last letter to the front
-            $('#userName').val(letterToFront); // Set the updated string back to the input field
-            thisString = `This is your name, but with the last letter first ${letterToFront}.`;
+            // alert("Short and Sweet! We love it!");
+            // var lastLetter = userName.slice(-1); // Get the last letter
+            // var letterToFront = lastLetter + userName.slice(0, -1); // Move the last letter to the front
+            // $('#userName').val(letterToFront); // Set the updated string back to the input field
+            // thisString = `This is your name, but with the last letter first ${letterToFront}.`;
 
         } else {
 
@@ -42,3 +45,15 @@ $(function() {
 
     });  
 }); 
+
+
+function moveThatLetter(userName){
+
+    
+    var lastLetter = userName.slice(-1); // Get the last letter
+    var letterToFront = lastLetter + userName.slice(0, -1); // Move the last letter to the front
+    //$('#userName').val(letterToFront); // Set the updated string back to the input field
+    thisString = `This is your name, but with the last letter first ${letterToFront}.`;
+    return thisString;
+
+}

@@ -55,9 +55,27 @@ h3 {
 
 .txtAdj{
     position: absolute;
-    left: 395px;
+    left: 295px;
     top: 450px;
     font-family: 'Permanent Marker';
-    font-size: 45px;
+    font-size: 35px;
     color: rgb(141, 11, 37);
+}
+
+.shortTxt{
+    position: absolute;
+    left: 260px;
+    top: 300px;
+    font-family: 'Permanent Marker';
+    font-size: 35px;
+    color: rgb(141, 11, 37);
+}
+
+.longTxt{
+    position: absolute;
+    left: 260px;
+    top: 300px;
+    font-family: 'Permanent Marker';
+    font-size: 35px;
+    color: rgb(141, 11, 37); 
 }
